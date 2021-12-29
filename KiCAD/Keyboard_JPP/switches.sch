@@ -1,0 +1,1630 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_DIP_x01 SW3
+U 1 1 60C83E4B
+P 825 1750
+F 0 "SW3" H 825 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 825 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 825 1750 50  0001 C CNN
+F 3 "~" H 825 1750 50  0001 C CNN
+	1    825  1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 60C83EB1
+P 1125 1950
+F 0 "D2" V 1125 2200 50  0000 R CNN
+F 1 "1N4148" V 1080 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1125 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1125 1950 50  0001 C CNN
+	1    1125 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1125 1750 1125 1800
+$Comp
+L Switch:SW_DIP_x01 SW4
+U 1 1 60C863BB
+P 825 2475
+F 0 "SW4" H 825 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 825 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 825 2475 50  0001 C CNN
+F 3 "~" H 825 2475 50  0001 C CNN
+	1    825  2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 60C8646B
+P 1125 2675
+F 0 "D3" V 1125 2925 50  0000 R CNN
+F 1 "1N4148" V 1080 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1125 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1125 2675 50  0001 C CNN
+	1    1125 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1125 2475 1125 2525
+$Comp
+L Switch:SW_DIP_x01 SW5
+U 1 1 60C86476
+P 825 3175
+F 0 "SW5" H 825 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 825 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 825 3175 50  0001 C CNN
+F 3 "~" H 825 3175 50  0001 C CNN
+	1    825  3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 60C86480
+P 1125 3375
+F 0 "D4" V 1125 3625 50  0000 R CNN
+F 1 "1N4148" V 1080 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1125 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1125 3375 50  0001 C CNN
+	1    1125 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1125 3175 1125 3225
+$Comp
+L Switch:SW_DIP_x01 SW6
+U 1 1 60C8BEDD
+P 825 3925
+F 0 "SW6" H 825 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 825 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 825 3925 50  0001 C CNN
+F 3 "~" H 825 3925 50  0001 C CNN
+	1    825  3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 60C8C021
+P 1125 4125
+F 0 "D5" V 1125 4375 50  0000 R CNN
+F 1 "1N4148" V 1080 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1125 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1125 4125 50  0001 C CNN
+	1    1125 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1125 3925 1125 3975
+$Comp
+L Switch:SW_DIP_x01 SW8
+U 1 1 60C92065
+P 1775 1750
+F 0 "SW8" H 1775 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 1775 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 1775 1750 50  0001 C CNN
+F 3 "~" H 1775 1750 50  0001 C CNN
+	1    1775 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 60C9206F
+P 2075 1950
+F 0 "D7" V 2075 2200 50  0000 R CNN
+F 1 "1N4148" V 2030 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2075 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2075 1950 50  0001 C CNN
+	1    2075 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2075 1750 2075 1800
+$Comp
+L Switch:SW_DIP_x01 SW9
+U 1 1 60C9207A
+P 1775 2475
+F 0 "SW9" H 1775 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 1775 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 1775 2475 50  0001 C CNN
+F 3 "~" H 1775 2475 50  0001 C CNN
+	1    1775 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 60C92084
+P 2075 2675
+F 0 "D8" V 2075 2925 50  0000 R CNN
+F 1 "1N4148" V 2030 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2075 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2075 2675 50  0001 C CNN
+	1    2075 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2075 2475 2075 2525
+$Comp
+L Switch:SW_DIP_x01 SW10
+U 1 1 60C9208F
+P 1775 3175
+F 0 "SW10" H 1775 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 1775 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 1775 3175 50  0001 C CNN
+F 3 "~" H 1775 3175 50  0001 C CNN
+	1    1775 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 60C92099
+P 2075 3375
+F 0 "D9" V 2075 3625 50  0000 R CNN
+F 1 "1N4148" V 2030 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2075 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2075 3375 50  0001 C CNN
+	1    2075 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2075 3175 2075 3225
+$Comp
+L Switch:SW_DIP_x01 SW11
+U 1 1 60C920A4
+P 1775 3925
+F 0 "SW11" H 1775 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 1775 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 1775 3925 50  0001 C CNN
+F 3 "~" H 1775 3925 50  0001 C CNN
+	1    1775 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 60C920AE
+P 2075 4125
+F 0 "D10" V 2075 4375 50  0000 R CNN
+F 1 "1N4148" V 2030 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2075 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2075 4125 50  0001 C CNN
+	1    2075 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2075 3925 2075 3975
+$Comp
+L Switch:SW_DIP_x01 SW13
+U 1 1 60CA3D3C
+P 2650 1750
+F 0 "SW13" H 2650 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2650 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 2650 1750 50  0001 C CNN
+F 3 "~" H 2650 1750 50  0001 C CNN
+	1    2650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 60CA3D46
+P 2950 1950
+F 0 "D12" V 2950 2200 50  0000 R CNN
+F 1 "1N4148" V 2905 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 1950 50  0001 C CNN
+	1    2950 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 1750 2950 1800
+$Comp
+L Switch:SW_DIP_x01 SW14
+U 1 1 60CA3D51
+P 2650 2475
+F 0 "SW14" H 2650 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2650 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 2650 2475 50  0001 C CNN
+F 3 "~" H 2650 2475 50  0001 C CNN
+	1    2650 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 60CA3D5B
+P 2950 2675
+F 0 "D13" V 2950 2925 50  0000 R CNN
+F 1 "1N4148" V 2905 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 2675 50  0001 C CNN
+	1    2950 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 2475 2950 2525
+$Comp
+L Switch:SW_DIP_x01 SW15
+U 1 1 60CA3D66
+P 2650 3175
+F 0 "SW15" H 2650 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2650 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 2650 3175 50  0001 C CNN
+F 3 "~" H 2650 3175 50  0001 C CNN
+	1    2650 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 60CA3D70
+P 2950 3375
+F 0 "D14" V 2950 3625 50  0000 R CNN
+F 1 "1N4148" V 2905 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 3375 50  0001 C CNN
+	1    2950 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3175 2950 3225
+$Comp
+L Switch:SW_DIP_x01 SW16
+U 1 1 60CA3D7B
+P 2650 3925
+F 0 "SW16" H 2650 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2650 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 2650 3925 50  0001 C CNN
+F 3 "~" H 2650 3925 50  0001 C CNN
+	1    2650 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 60CA3D85
+P 2950 4125
+F 0 "D15" V 2950 4375 50  0000 R CNN
+F 1 "1N4148" V 2905 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 4125 50  0001 C CNN
+	1    2950 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3925 2950 3975
+$Comp
+L Switch:SW_DIP_x01 SW18
+U 1 1 60CA3DA5
+P 3600 1750
+F 0 "SW18" H 3600 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3600 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 3600 1750 50  0001 C CNN
+F 3 "~" H 3600 1750 50  0001 C CNN
+	1    3600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 60CA3DAF
+P 3900 1950
+F 0 "D17" V 3900 2200 50  0000 R CNN
+F 1 "1N4148" V 3855 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3900 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3900 1950 50  0001 C CNN
+	1    3900 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 1750 3900 1800
+$Comp
+L Switch:SW_DIP_x01 SW19
+U 1 1 60CA3DBA
+P 3600 2475
+F 0 "SW19" H 3600 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3600 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 3600 2475 50  0001 C CNN
+F 3 "~" H 3600 2475 50  0001 C CNN
+	1    3600 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 60CA3DC4
+P 3900 2675
+F 0 "D18" V 3900 2925 50  0000 R CNN
+F 1 "1N4148" V 3855 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3900 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3900 2675 50  0001 C CNN
+	1    3900 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2475 3900 2525
+$Comp
+L Switch:SW_DIP_x01 SW20
+U 1 1 60CA3DCF
+P 3600 3175
+F 0 "SW20" H 3600 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3600 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 3600 3175 50  0001 C CNN
+F 3 "~" H 3600 3175 50  0001 C CNN
+	1    3600 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 60CA3DD9
+P 3900 3375
+F 0 "D19" V 3900 3625 50  0000 R CNN
+F 1 "1N4148" V 3855 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3900 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3900 3375 50  0001 C CNN
+	1    3900 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3175 3900 3225
+$Comp
+L Switch:SW_DIP_x01 SW21
+U 1 1 60CA3DE4
+P 3600 3925
+F 0 "SW21" H 3600 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3600 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 3600 3925 50  0001 C CNN
+F 3 "~" H 3600 3925 50  0001 C CNN
+	1    3600 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 60CA3DEE
+P 3900 4125
+F 0 "D20" V 3900 4375 50  0000 R CNN
+F 1 "1N4148" V 3855 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3900 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3900 4125 50  0001 C CNN
+	1    3900 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3925 3900 3975
+$Comp
+L Switch:SW_DIP_x01 SW23
+U 1 1 60CC8DA0
+P 4475 1750
+F 0 "SW23" H 4475 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4475 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 4475 1750 50  0001 C CNN
+F 3 "~" H 4475 1750 50  0001 C CNN
+	1    4475 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 60CC8DAA
+P 4775 1950
+F 0 "D22" V 4775 2200 50  0000 R CNN
+F 1 "1N4148" V 4730 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4775 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4775 1950 50  0001 C CNN
+	1    4775 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4775 1750 4775 1800
+$Comp
+L Switch:SW_DIP_x01 SW24
+U 1 1 60CC8DB5
+P 4475 2475
+F 0 "SW24" H 4475 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4475 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 4475 2475 50  0001 C CNN
+F 3 "~" H 4475 2475 50  0001 C CNN
+	1    4475 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 60CC8DBF
+P 4775 2675
+F 0 "D23" V 4775 2925 50  0000 R CNN
+F 1 "1N4148" V 4730 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4775 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4775 2675 50  0001 C CNN
+	1    4775 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4775 2475 4775 2525
+$Comp
+L Switch:SW_DIP_x01 SW25
+U 1 1 60CC8DCA
+P 4475 3175
+F 0 "SW25" H 4475 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4475 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 4475 3175 50  0001 C CNN
+F 3 "~" H 4475 3175 50  0001 C CNN
+	1    4475 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 60CC8DD4
+P 4775 3375
+F 0 "D24" V 4775 3625 50  0000 R CNN
+F 1 "1N4148" V 4730 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4775 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4775 3375 50  0001 C CNN
+	1    4775 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4775 3175 4775 3225
+$Comp
+L Switch:SW_DIP_x01 SW26
+U 1 1 60CC8DDF
+P 4475 3925
+F 0 "SW26" H 4475 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4475 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 4475 3925 50  0001 C CNN
+F 3 "~" H 4475 3925 50  0001 C CNN
+	1    4475 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 60CC8DE9
+P 4775 4125
+F 0 "D25" V 4775 4375 50  0000 R CNN
+F 1 "1N4148" V 4730 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4775 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4775 4125 50  0001 C CNN
+	1    4775 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4775 3925 4775 3975
+$Comp
+L Switch:SW_DIP_x01 SW28
+U 1 1 60CC8E09
+P 5425 1750
+F 0 "SW28" H 5425 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5425 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 5425 1750 50  0001 C CNN
+F 3 "~" H 5425 1750 50  0001 C CNN
+	1    5425 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 60CC8E13
+P 5725 1950
+F 0 "D27" V 5725 2200 50  0000 R CNN
+F 1 "1N4148" V 5680 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5725 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5725 1950 50  0001 C CNN
+	1    5725 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5725 1750 5725 1800
+$Comp
+L Switch:SW_DIP_x01 SW29
+U 1 1 60CC8E1E
+P 5425 2475
+F 0 "SW29" H 5425 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5425 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 5425 2475 50  0001 C CNN
+F 3 "~" H 5425 2475 50  0001 C CNN
+	1    5425 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 60CC8E28
+P 5725 2675
+F 0 "D28" V 5725 2925 50  0000 R CNN
+F 1 "1N4148" V 5680 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5725 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5725 2675 50  0001 C CNN
+	1    5725 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5725 2475 5725 2525
+$Comp
+L Switch:SW_DIP_x01 SW30
+U 1 1 60CC8E33
+P 5425 3175
+F 0 "SW30" H 5425 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5425 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 5425 3175 50  0001 C CNN
+F 3 "~" H 5425 3175 50  0001 C CNN
+	1    5425 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D29
+U 1 1 60CC8E3D
+P 5725 3375
+F 0 "D29" V 5725 3625 50  0000 R CNN
+F 1 "1N4148" V 5680 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5725 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5725 3375 50  0001 C CNN
+	1    5725 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5725 3175 5725 3225
+$Comp
+L Switch:SW_DIP_x01 SW31
+U 1 1 60CC8E48
+P 5425 3925
+F 0 "SW31" H 5425 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5425 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 5425 3925 50  0001 C CNN
+F 3 "~" H 5425 3925 50  0001 C CNN
+	1    5425 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 60CC8E52
+P 5725 4125
+F 0 "D30" V 5725 4375 50  0000 R CNN
+F 1 "1N4148" V 5680 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5725 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5725 4125 50  0001 C CNN
+	1    5725 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5725 3925 5725 3975
+$Comp
+L Switch:SW_DIP_x01 SW33
+U 1 1 60CC8E72
+P 6300 1750
+F 0 "SW33" H 6300 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6300 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 6300 1750 50  0001 C CNN
+F 3 "~" H 6300 1750 50  0001 C CNN
+	1    6300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 60CC8E7C
+P 6600 1950
+F 0 "D32" V 6600 2200 50  0000 R CNN
+F 1 "1N4148" V 6555 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6600 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6600 1950 50  0001 C CNN
+	1    6600 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1750 6600 1800
+$Comp
+L Switch:SW_DIP_x01 SW34
+U 1 1 60CC8E87
+P 6300 2475
+F 0 "SW34" H 6300 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6300 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 6300 2475 50  0001 C CNN
+F 3 "~" H 6300 2475 50  0001 C CNN
+	1    6300 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 60CC8E91
+P 6600 2675
+F 0 "D33" V 6600 2925 50  0000 R CNN
+F 1 "1N4148" V 6555 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6600 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6600 2675 50  0001 C CNN
+	1    6600 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2475 6600 2525
+$Comp
+L Switch:SW_DIP_x01 SW35
+U 1 1 60CC8E9C
+P 6300 3175
+F 0 "SW35" H 6300 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6300 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 6300 3175 50  0001 C CNN
+F 3 "~" H 6300 3175 50  0001 C CNN
+	1    6300 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 60CC8EA6
+P 6600 3375
+F 0 "D34" V 6600 3625 50  0000 R CNN
+F 1 "1N4148" V 6555 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6600 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6600 3375 50  0001 C CNN
+	1    6600 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3175 6600 3225
+$Comp
+L Switch:SW_DIP_x01 SW37
+U 1 1 60CC8EDB
+P 7250 1750
+F 0 "SW37" H 7250 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7250 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 7250 1750 50  0001 C CNN
+F 3 "~" H 7250 1750 50  0001 C CNN
+	1    7250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 60CC8EE5
+P 7550 1950
+F 0 "D36" V 7550 2200 50  0000 R CNN
+F 1 "1N4148" V 7505 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 1950 50  0001 C CNN
+	1    7550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1750 7550 1800
+$Comp
+L Switch:SW_DIP_x01 SW38
+U 1 1 60CC8EF0
+P 7250 2475
+F 0 "SW38" H 7250 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7250 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 7250 2475 50  0001 C CNN
+F 3 "~" H 7250 2475 50  0001 C CNN
+	1    7250 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 60CC8EFA
+P 7550 2675
+F 0 "D37" V 7550 2925 50  0000 R CNN
+F 1 "1N4148" V 7505 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 2675 50  0001 C CNN
+	1    7550 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2475 7550 2525
+$Comp
+L Switch:SW_DIP_x01 SW39
+U 1 1 60CC8F05
+P 7250 3175
+F 0 "SW39" H 7250 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7250 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 7250 3175 50  0001 C CNN
+F 3 "~" H 7250 3175 50  0001 C CNN
+	1    7250 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 60CC8F0F
+P 7550 3375
+F 0 "D38" V 7550 3625 50  0000 R CNN
+F 1 "1N4148" V 7505 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 3375 50  0001 C CNN
+	1    7550 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3175 7550 3225
+$Comp
+L Switch:SW_DIP_x01 SW40
+U 1 1 60CC8F1A
+P 7250 3925
+F 0 "SW40" H 7250 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 7250 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 7250 3925 50  0001 C CNN
+F 3 "~" H 7250 3925 50  0001 C CNN
+	1    7250 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D39
+U 1 1 60CC8F24
+P 7550 4125
+F 0 "D39" V 7550 4375 50  0000 R CNN
+F 1 "1N4148" V 7505 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 4125 50  0001 C CNN
+	1    7550 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3925 7550 3975
+$Comp
+L Switch:SW_DIP_x01 SW42
+U 1 1 60D55C26
+P 8075 1750
+F 0 "SW42" H 8075 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 8075 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 8075 1750 50  0001 C CNN
+F 3 "~" H 8075 1750 50  0001 C CNN
+	1    8075 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D41
+U 1 1 60D55C30
+P 8375 1950
+F 0 "D41" V 8375 2200 50  0000 R CNN
+F 1 "1N4148" V 8330 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8375 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8375 1950 50  0001 C CNN
+	1    8375 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8375 1750 8375 1800
+$Comp
+L Switch:SW_DIP_x01 SW43
+U 1 1 60D55C3B
+P 8075 2475
+F 0 "SW43" H 8075 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 8075 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 8075 2475 50  0001 C CNN
+F 3 "~" H 8075 2475 50  0001 C CNN
+	1    8075 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D42
+U 1 1 60D55C45
+P 8375 2675
+F 0 "D42" V 8375 2925 50  0000 R CNN
+F 1 "1N4148" V 8330 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8375 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8375 2675 50  0001 C CNN
+	1    8375 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8375 2475 8375 2525
+$Comp
+L Switch:SW_DIP_x01 SW44
+U 1 1 60D55C50
+P 8075 3175
+F 0 "SW44" H 8075 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 8075 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 8075 3175 50  0001 C CNN
+F 3 "~" H 8075 3175 50  0001 C CNN
+	1    8075 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D43
+U 1 1 60D55C5A
+P 8375 3375
+F 0 "D43" V 8375 3625 50  0000 R CNN
+F 1 "1N4148" V 8330 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8375 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8375 3375 50  0001 C CNN
+	1    8375 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8375 3175 8375 3225
+$Comp
+L Switch:SW_DIP_x01 SW45
+U 1 1 60D55C65
+P 8075 3925
+F 0 "SW45" H 8075 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 8075 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 8075 3925 50  0001 C CNN
+F 3 "~" H 8075 3925 50  0001 C CNN
+	1    8075 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D44
+U 1 1 60D55C6F
+P 8375 4125
+F 0 "D44" V 8375 4375 50  0000 R CNN
+F 1 "1N4148" V 8330 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8375 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8375 4125 50  0001 C CNN
+	1    8375 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8375 3925 8375 3975
+$Comp
+L Switch:SW_DIP_x01 SW47
+U 1 1 60D55C8F
+P 9025 1750
+F 0 "SW47" H 9025 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9025 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9025 1750 50  0001 C CNN
+F 3 "~" H 9025 1750 50  0001 C CNN
+	1    9025 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D46
+U 1 1 60D55C99
+P 9325 1950
+F 0 "D46" V 9325 2200 50  0000 R CNN
+F 1 "1N4148" V 9280 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9325 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9325 1950 50  0001 C CNN
+	1    9325 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9325 1750 9325 1800
+$Comp
+L Switch:SW_DIP_x01 SW48
+U 1 1 60D55CA4
+P 9025 2475
+F 0 "SW48" H 9025 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9025 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9025 2475 50  0001 C CNN
+F 3 "~" H 9025 2475 50  0001 C CNN
+	1    9025 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D47
+U 1 1 60D55CAE
+P 9325 2675
+F 0 "D47" V 9325 2925 50  0000 R CNN
+F 1 "1N4148" V 9280 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9325 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9325 2675 50  0001 C CNN
+	1    9325 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9325 2475 9325 2525
+$Comp
+L Switch:SW_DIP_x01 SW49
+U 1 1 60D55CB9
+P 9025 3175
+F 0 "SW49" H 9025 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9025 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9025 3175 50  0001 C CNN
+F 3 "~" H 9025 3175 50  0001 C CNN
+	1    9025 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D48
+U 1 1 60D55CC3
+P 9325 3375
+F 0 "D48" V 9325 3625 50  0000 R CNN
+F 1 "1N4148" V 9280 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9325 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9325 3375 50  0001 C CNN
+	1    9325 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9325 3175 9325 3225
+$Comp
+L Switch:SW_DIP_x01 SW50
+U 1 1 60D55CCE
+P 9025 3925
+F 0 "SW50" H 9025 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9025 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9025 3925 50  0001 C CNN
+F 3 "~" H 9025 3925 50  0001 C CNN
+	1    9025 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D49
+U 1 1 60D55CD8
+P 9325 4125
+F 0 "D49" V 9325 4375 50  0000 R CNN
+F 1 "1N4148" V 9280 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9325 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9325 4125 50  0001 C CNN
+	1    9325 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9325 3925 9325 3975
+$Comp
+L Switch:SW_DIP_x01 SW52
+U 1 1 60D55CF8
+P 9900 1750
+F 0 "SW52" H 9900 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9900 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9900 1750 50  0001 C CNN
+F 3 "~" H 9900 1750 50  0001 C CNN
+	1    9900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D51
+U 1 1 60D55D02
+P 10200 1950
+F 0 "D51" V 10200 2200 50  0000 R CNN
+F 1 "1N4148" V 10155 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 1950 50  0001 C CNN
+	1    10200 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 1750 10200 1800
+$Comp
+L Switch:SW_DIP_x01 SW53
+U 1 1 60D55D0D
+P 9900 2475
+F 0 "SW53" H 9900 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9900 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9900 2475 50  0001 C CNN
+F 3 "~" H 9900 2475 50  0001 C CNN
+	1    9900 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D52
+U 1 1 60D55D17
+P 10200 2675
+F 0 "D52" V 10200 2925 50  0000 R CNN
+F 1 "1N4148" V 10155 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 2675 50  0001 C CNN
+	1    10200 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 2475 10200 2525
+$Comp
+L Switch:SW_DIP_x01 SW54
+U 1 1 60D55D22
+P 9900 3175
+F 0 "SW54" H 9900 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9900 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9900 3175 50  0001 C CNN
+F 3 "~" H 9900 3175 50  0001 C CNN
+	1    9900 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D53
+U 1 1 60D55D2C
+P 10200 3375
+F 0 "D53" V 10200 3625 50  0000 R CNN
+F 1 "1N4148" V 10155 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 3375 50  0001 C CNN
+	1    10200 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 3175 10200 3225
+$Comp
+L Switch:SW_DIP_x01 SW55
+U 1 1 60D55D37
+P 9900 3925
+F 0 "SW55" H 9900 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9900 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 9900 3925 50  0001 C CNN
+F 3 "~" H 9900 3925 50  0001 C CNN
+	1    9900 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D54
+U 1 1 60D55D41
+P 10200 4125
+F 0 "D54" V 10200 4375 50  0000 R CNN
+F 1 "1N4148" V 10155 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 4125 50  0001 C CNN
+	1    10200 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 3925 10200 3975
+$Comp
+L Switch:SW_DIP_x01 SW57
+U 1 1 60D55D61
+P 10850 1750
+F 0 "SW57" H 10850 1900 50  0000 C CNN
+F 1 "SW_DIP_x01" H 10850 1926 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 10850 1750 50  0001 C CNN
+F 3 "~" H 10850 1750 50  0001 C CNN
+	1    10850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D56
+U 1 1 60D55D6B
+P 11150 1950
+F 0 "D56" V 11150 2200 50  0000 R CNN
+F 1 "1N4148" V 11105 1870 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11150 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11150 1950 50  0001 C CNN
+	1    11150 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 1750 11150 1800
+$Comp
+L Switch:SW_DIP_x01 SW58
+U 1 1 60D55D76
+P 10850 2475
+F 0 "SW58" H 10850 2625 50  0000 C CNN
+F 1 "SW_DIP_x01" H 10850 2651 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 10850 2475 50  0001 C CNN
+F 3 "~" H 10850 2475 50  0001 C CNN
+	1    10850 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D57
+U 1 1 60D55D80
+P 11150 2675
+F 0 "D57" V 11150 2925 50  0000 R CNN
+F 1 "1N4148" V 11105 2595 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11150 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11150 2675 50  0001 C CNN
+	1    11150 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 2475 11150 2525
+$Comp
+L Switch:SW_DIP_x01 SW59
+U 1 1 60D55D8B
+P 10850 3175
+F 0 "SW59" H 10850 3325 50  0000 C CNN
+F 1 "SW_DIP_x01" H 10850 3351 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 10850 3175 50  0001 C CNN
+F 3 "~" H 10850 3175 50  0001 C CNN
+	1    10850 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D58
+U 1 1 60D55D95
+P 11150 3375
+F 0 "D58" V 11150 3625 50  0000 R CNN
+F 1 "1N4148" V 11105 3295 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11150 3200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11150 3375 50  0001 C CNN
+	1    11150 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 3175 11150 3225
+$Comp
+L Switch:SW_DIP_x01 SW60
+U 1 1 60D55DA0
+P 10850 3925
+F 0 "SW60" H 10850 4075 50  0000 C CNN
+F 1 "SW_DIP_x01" H 10850 4101 50  0001 C CNN
+F 2 "JoesFootprints:Kailh_socket_MX" H 10850 3925 50  0001 C CNN
+F 3 "~" H 10850 3925 50  0001 C CNN
+	1    10850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D59
+U 1 1 60D55DAA
+P 11150 4125
+F 0 "D59" V 11150 4375 50  0000 R CNN
+F 1 "1N4148" V 11105 4045 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11150 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11150 4125 50  0001 C CNN
+	1    11150 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 3925 11150 3975
+Text GLabel 350  1500 0    59   BiDi ~ 0
+ROW1
+Text GLabel 350  2225 0    59   BiDi ~ 0
+ROW2
+Text GLabel 350  2950 0    59   BiDi ~ 0
+ROW3
+Text GLabel 350  3675 0    59   BiDi ~ 0
+ROW4
+Text GLabel 1275 600  1    59   BiDi ~ 0
+COL0
+Text GLabel 2200 600  1    59   BiDi ~ 0
+COL1
+Text GLabel 3125 600  1    59   BiDi ~ 0
+COL2
+Text GLabel 4025 600  1    59   BiDi ~ 0
+COL3
+Text GLabel 4925 600  1    59   BiDi ~ 0
+COL4
+Text GLabel 5850 600  1    59   BiDi ~ 0
+COL5
+Text GLabel 6775 600  1    59   BiDi ~ 0
+COL6
+Text GLabel 7650 600  1    59   BiDi ~ 0
+COL7
+Text GLabel 8525 600  1    59   BiDi ~ 0
+COL8
+Text GLabel 9450 600  1    59   BiDi ~ 0
+COL9
+Text GLabel 10350 600  1    59   BiDi ~ 0
+COL10
+Text GLabel 11350 600  1    59   BiDi ~ 0
+COL11
+Wire Wire Line
+	350  1500 525  1500
+Wire Wire Line
+	10550 1500 10550 1750
+Wire Wire Line
+	350  2225 525  2225
+Wire Wire Line
+	10550 2225 10550 2475
+Wire Wire Line
+	350  2950 525  2950
+Wire Wire Line
+	10550 2950 10550 3175
+Wire Wire Line
+	350  3675 525  3675
+Wire Wire Line
+	10550 3675 10550 3925
+Wire Wire Line
+	11350 4275 11150 4275
+Wire Wire Line
+	10350 4275 10200 4275
+Wire Wire Line
+	9450 4275 9325 4275
+Wire Wire Line
+	8525 4275 8375 4275
+Wire Wire Line
+	7650 4275 7550 4275
+Wire Wire Line
+	6775 3525 6600 3525
+Wire Wire Line
+	5850 4275 5725 4275
+Wire Wire Line
+	4925 4275 4775 4275
+Wire Wire Line
+	4025 4275 3900 4275
+Wire Wire Line
+	3125 4275 2950 4275
+Wire Wire Line
+	2200 4275 2075 4275
+Wire Wire Line
+	1275 4275 1125 4275
+Wire Wire Line
+	11150 2100 11350 2100
+Connection ~ 11350 2100
+Wire Wire Line
+	11350 2100 11350 2825
+Wire Wire Line
+	10200 2100 10350 2100
+Connection ~ 10350 2100
+Wire Wire Line
+	10350 2100 10350 2825
+Wire Wire Line
+	9600 1750 9600 1500
+Connection ~ 9600 1500
+Wire Wire Line
+	9600 1500 10550 1500
+Wire Wire Line
+	9325 2100 9450 2100
+Connection ~ 9450 2100
+Wire Wire Line
+	9450 2100 9450 2825
+Wire Wire Line
+	8725 1750 8725 1500
+Connection ~ 8725 1500
+Wire Wire Line
+	8725 1500 9600 1500
+Wire Wire Line
+	8375 2100 8525 2100
+Connection ~ 8525 2100
+Wire Wire Line
+	8525 2100 8525 2825
+Wire Wire Line
+	7775 1750 7775 1500
+Connection ~ 7775 1500
+Wire Wire Line
+	7775 1500 8725 1500
+Wire Wire Line
+	7550 2100 7650 2100
+Connection ~ 7650 2100
+Wire Wire Line
+	7650 2100 7650 2825
+Wire Wire Line
+	6950 1750 6950 1500
+Connection ~ 6950 1500
+Wire Wire Line
+	6950 1500 7775 1500
+Wire Wire Line
+	6600 2100 6775 2100
+Connection ~ 6775 2100
+Wire Wire Line
+	6775 2100 6775 2825
+Wire Wire Line
+	6000 1750 6000 1500
+Connection ~ 6000 1500
+Wire Wire Line
+	6000 1500 6950 1500
+Wire Wire Line
+	5725 2100 5850 2100
+Connection ~ 5850 2100
+Wire Wire Line
+	5850 2100 5850 2825
+Wire Wire Line
+	5125 1750 5125 1500
+Connection ~ 5125 1500
+Wire Wire Line
+	5125 1500 6000 1500
+Wire Wire Line
+	4775 2100 4925 2100
+Connection ~ 4925 2100
+Wire Wire Line
+	4925 2100 4925 2825
+Wire Wire Line
+	4175 1750 4175 1500
+Connection ~ 4175 1500
+Wire Wire Line
+	4175 1500 5125 1500
+Wire Wire Line
+	3900 2100 4025 2100
+Connection ~ 4025 2100
+Wire Wire Line
+	4025 2100 4025 2825
+Wire Wire Line
+	3300 1750 3300 1500
+Connection ~ 3300 1500
+Wire Wire Line
+	3300 1500 4175 1500
+Wire Wire Line
+	2950 2100 3125 2100
+Connection ~ 3125 2100
+Wire Wire Line
+	3125 2100 3125 2825
+Wire Wire Line
+	2350 1750 2350 1500
+Connection ~ 2350 1500
+Wire Wire Line
+	2350 1500 3300 1500
+Wire Wire Line
+	2075 2100 2200 2100
+Connection ~ 2200 2100
+Wire Wire Line
+	2200 2100 2200 2825
+Wire Wire Line
+	1475 1750 1475 1500
+Connection ~ 1475 1500
+Wire Wire Line
+	1475 1500 2350 1500
+Wire Wire Line
+	1125 2100 1275 2100
+Connection ~ 1275 2100
+Wire Wire Line
+	1275 2100 1275 2825
+Wire Wire Line
+	525  1750 525  1500
+Connection ~ 525  1500
+Wire Wire Line
+	525  1500 1475 1500
+Wire Wire Line
+	525  2475 525  2225
+Connection ~ 525  2225
+Wire Wire Line
+	1125 2825 1275 2825
+Connection ~ 1275 2825
+Wire Wire Line
+	1275 2825 1275 3525
+Wire Wire Line
+	1475 2475 1475 2225
+Wire Wire Line
+	525  2225 1475 2225
+Connection ~ 1475 2225
+Wire Wire Line
+	1475 2225 2350 2225
+Wire Wire Line
+	2075 2825 2200 2825
+Connection ~ 2200 2825
+Wire Wire Line
+	2200 2825 2200 3525
+Wire Wire Line
+	2350 2475 2350 2225
+Connection ~ 2350 2225
+Wire Wire Line
+	2350 2225 3300 2225
+Wire Wire Line
+	2950 2825 3125 2825
+Connection ~ 3125 2825
+Wire Wire Line
+	3125 2825 3125 3525
+Wire Wire Line
+	3300 2475 3300 2225
+Connection ~ 3300 2225
+Wire Wire Line
+	3900 2825 4025 2825
+Connection ~ 4025 2825
+Wire Wire Line
+	4025 2825 4025 3525
+Wire Wire Line
+	4175 2475 4175 2225
+Wire Wire Line
+	3300 2225 4175 2225
+Connection ~ 4175 2225
+Wire Wire Line
+	4175 2225 5125 2225
+Wire Wire Line
+	4775 2825 4925 2825
+Connection ~ 4925 2825
+Wire Wire Line
+	4925 2825 4925 3525
+Wire Wire Line
+	5125 2475 5125 2225
+Connection ~ 5125 2225
+Wire Wire Line
+	5125 2225 6000 2225
+Wire Wire Line
+	5725 2825 5850 2825
+Connection ~ 5850 2825
+Wire Wire Line
+	5850 2825 5850 3525
+Wire Wire Line
+	6000 2475 6000 2225
+Connection ~ 6000 2225
+Wire Wire Line
+	6000 2225 6950 2225
+Wire Wire Line
+	6600 2825 6775 2825
+Connection ~ 6775 2825
+Wire Wire Line
+	6775 2825 6775 3525
+Wire Wire Line
+	6950 2475 6950 2225
+Connection ~ 6950 2225
+Wire Wire Line
+	6950 2225 7775 2225
+Wire Wire Line
+	7550 2825 7650 2825
+Connection ~ 7650 2825
+Wire Wire Line
+	7650 2825 7650 3525
+Wire Wire Line
+	7775 2475 7775 2225
+Connection ~ 7775 2225
+Wire Wire Line
+	7775 2225 8725 2225
+Wire Wire Line
+	8375 2825 8525 2825
+Connection ~ 8525 2825
+Wire Wire Line
+	8525 2825 8525 3525
+Wire Wire Line
+	8725 2475 8725 2225
+Connection ~ 8725 2225
+Wire Wire Line
+	8725 2225 9600 2225
+Wire Wire Line
+	9325 2825 9450 2825
+Connection ~ 9450 2825
+Wire Wire Line
+	9450 2825 9450 3525
+Wire Wire Line
+	9600 2475 9600 2225
+Connection ~ 9600 2225
+Wire Wire Line
+	9600 2225 10550 2225
+Wire Wire Line
+	10200 2825 10350 2825
+Connection ~ 10350 2825
+Wire Wire Line
+	10350 2825 10350 3525
+Wire Wire Line
+	11150 2825 11350 2825
+Connection ~ 11350 2825
+Wire Wire Line
+	11350 2825 11350 3525
+Wire Wire Line
+	11150 3525 11350 3525
+Connection ~ 11350 3525
+Wire Wire Line
+	11350 3525 11350 4275
+Wire Wire Line
+	10200 3525 10350 3525
+Connection ~ 10350 3525
+Wire Wire Line
+	10350 3525 10350 4275
+Wire Wire Line
+	9600 3175 9600 2950
+Connection ~ 9600 2950
+Wire Wire Line
+	9600 2950 10550 2950
+Wire Wire Line
+	9325 3525 9450 3525
+Connection ~ 9450 3525
+Wire Wire Line
+	9450 3525 9450 4275
+Wire Wire Line
+	8725 3175 8725 2950
+Connection ~ 8725 2950
+Wire Wire Line
+	8725 2950 9600 2950
+Wire Wire Line
+	8375 3525 8525 3525
+Connection ~ 8525 3525
+Wire Wire Line
+	8525 3525 8525 4275
+Wire Wire Line
+	7775 3175 7775 2950
+Connection ~ 7775 2950
+Wire Wire Line
+	7775 2950 8725 2950
+Wire Wire Line
+	7550 3525 7650 3525
+Connection ~ 7650 3525
+Wire Wire Line
+	7650 3525 7650 4275
+Wire Wire Line
+	6950 3175 6950 2950
+Connection ~ 6950 2950
+Wire Wire Line
+	6950 2950 7775 2950
+Wire Wire Line
+	6000 3175 6000 2950
+Connection ~ 6000 2950
+Wire Wire Line
+	6000 2950 6950 2950
+Wire Wire Line
+	5725 3525 5850 3525
+Connection ~ 5850 3525
+Wire Wire Line
+	5850 3525 5850 4275
+Wire Wire Line
+	5125 3175 5125 2950
+Connection ~ 5125 2950
+Wire Wire Line
+	5125 2950 6000 2950
+Wire Wire Line
+	4775 3525 4925 3525
+Connection ~ 4925 3525
+Wire Wire Line
+	4925 3525 4925 4275
+Wire Wire Line
+	4175 3175 4175 2950
+Connection ~ 4175 2950
+Wire Wire Line
+	4175 2950 5125 2950
+Wire Wire Line
+	3900 3525 4025 3525
+Connection ~ 4025 3525
+Wire Wire Line
+	4025 3525 4025 4275
+Wire Wire Line
+	3300 3175 3300 2950
+Connection ~ 3300 2950
+Wire Wire Line
+	3300 2950 4175 2950
+Wire Wire Line
+	2950 3525 3125 3525
+Connection ~ 3125 3525
+Wire Wire Line
+	3125 3525 3125 4275
+Wire Wire Line
+	2350 3175 2350 2950
+Connection ~ 2350 2950
+Wire Wire Line
+	2350 2950 3300 2950
+Wire Wire Line
+	2075 3525 2200 3525
+Connection ~ 2200 3525
+Wire Wire Line
+	2200 3525 2200 4275
+Wire Wire Line
+	1475 3175 1475 2950
+Connection ~ 1475 2950
+Wire Wire Line
+	1475 2950 2350 2950
+Wire Wire Line
+	1125 3525 1275 3525
+Connection ~ 1275 3525
+Wire Wire Line
+	1275 3525 1275 4275
+Wire Wire Line
+	525  3175 525  2950
+Connection ~ 525  2950
+Wire Wire Line
+	525  2950 1475 2950
+Wire Wire Line
+	525  3925 525  3675
+Connection ~ 525  3675
+Wire Wire Line
+	525  3675 1475 3675
+Wire Wire Line
+	1475 3925 1475 3675
+Connection ~ 1475 3675
+Wire Wire Line
+	1475 3675 2350 3675
+Wire Wire Line
+	2350 3925 2350 3675
+Connection ~ 2350 3675
+Wire Wire Line
+	2350 3675 3300 3675
+Wire Wire Line
+	3300 3925 3300 3675
+Connection ~ 3300 3675
+Wire Wire Line
+	3300 3675 4175 3675
+Wire Wire Line
+	4175 3925 4175 3675
+Connection ~ 4175 3675
+Wire Wire Line
+	4175 3675 5125 3675
+Wire Wire Line
+	5125 3925 5125 3675
+Connection ~ 5125 3675
+Wire Wire Line
+	5125 3675 6950 3675
+Wire Wire Line
+	6950 3925 6950 3675
+Connection ~ 6950 3675
+Wire Wire Line
+	6950 3675 7775 3675
+Wire Wire Line
+	7775 3925 7775 3675
+Connection ~ 7775 3675
+Wire Wire Line
+	7775 3675 8725 3675
+Wire Wire Line
+	8725 3925 8725 3675
+Connection ~ 8725 3675
+Wire Wire Line
+	8725 3675 9600 3675
+Wire Wire Line
+	9600 3925 9600 3675
+Connection ~ 9600 3675
+Wire Wire Line
+	9600 3675 10550 3675
+Wire Wire Line
+	1275 600  1275 2100
+Wire Wire Line
+	2200 600  2200 2100
+Wire Wire Line
+	3125 600  3125 2100
+Wire Wire Line
+	4025 600  4025 2100
+Wire Wire Line
+	4925 600  4925 2100
+Wire Wire Line
+	5850 600  5850 2100
+Wire Wire Line
+	6775 600  6775 2100
+Wire Wire Line
+	7650 600  7650 2100
+Wire Wire Line
+	8525 600  8525 2100
+Wire Wire Line
+	9450 600  9450 2100
+Wire Wire Line
+	10350 600  10350 2100
+Wire Wire Line
+	11350 600  11350 2100
+$EndSCHEMATC
